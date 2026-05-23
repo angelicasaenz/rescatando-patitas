@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f3ff; /* fondo morado muy suave */
+  color: #1f1f1f;
+}
+
+/* HEADER */
+header {
+  background: #6d28d9; /* morado oscuro elegante */
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* NAVEGACIÓN */
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+  background: #ede9fe; /* lavanda suave */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #4c1d95;
+}
+
+/* BOTONES */
+button {
+  padding: 10px 14px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background: #a78bfa; /* morado suave */
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #6d28d9;
+  transform: scale(1.05);
+}
+
+/* SECCIONES */
+.cards {
+  padding: 30px;
+  text-align: center;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* TARJETAS */
+.card {
+  background: white;
+  padding: 15px;
+  width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* INPUTS */
+input, textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 260px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.video-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: #ede9fe; /* morado suave */
+  margin-top: 30px;
+}
+
+.video-section h2 {
+  color: #4c1d95;
+  margin-bottom: 20px;
+}
+
+/* Contenedor centrado */
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo del video */
+.video-container iframe {
+  width: 80%;
+  max-width: 700px;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+@media (max-width: 768px) {
+  .video-container iframe {
+    width: 95%;
+    height: 250px;
+  }
+}
+
+/* FOOTER */
+footer {
+  background: #6d28d9;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+

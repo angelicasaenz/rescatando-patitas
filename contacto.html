@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Contacto 📩</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="adopciones.html">Adopciones</a>
+    <a href="donaciones.html">Donaciones</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<section class="cards">
+
+  <form onsubmit="return validarFormulario()">
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="email" id="correo" placeholder="Correo">
+    <textarea id="mensaje" placeholder="Mensaje"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
